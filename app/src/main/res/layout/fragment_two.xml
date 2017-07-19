@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bad1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/UserName"
+        />
+
+    <ImageView
+        android:id="@+id/good1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/good1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/UserName"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/UserName"
+        android:layout_centerHorizontal="true"
+        android:hint="UserName" />
+
+    <ImageView
+        android:id="@+id/bad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bad1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/Password"
+        android:layout_below="@+id/UserName"
+        />
+
+    <ImageView
+        android:id="@+id/good2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/good1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/Password"
+        android:layout_below="@+id/UserName"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Password"
+        android:hint="Password"
+        android:layout_below="@+id/UserName"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/bad3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bad1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/email"
+        android:layout_below="@+id/Password"
+        />
+
+    <ImageView
+        android:id="@+id/good3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/good1"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/email"
+        android:layout_below="@+id/Password"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_below="@+id/Password"
+        android:hint="Email"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:id="@+id/save"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_below="@+id/email"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inserted"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/signup"
+        android:hint="ok" />
+</RelativeLayout>

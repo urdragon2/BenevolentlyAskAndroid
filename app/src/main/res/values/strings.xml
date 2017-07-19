@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BenevolentlyAsk</string>
+    <string name="title_activity_my_new_user">New User</string>
+    <string name="title_activity_landing">Me</string>
+<string name="select">Choose an object</string>
+<string-array name="cardarray">
+<item></item>
+<item>Delete</item>
+<item>Report</item>
+</string-array>
+    <string name="menu_title">Add</string>
+</resources>

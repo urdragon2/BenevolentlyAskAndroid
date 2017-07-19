@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "115752647093",
+    "firebase_url": "https://benevolentlyask.firebaseio.com",
+    "project_id": "benevolentlyask",
+    "storage_bucket": "benevolentlyask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115752647093:android:2bb030ba7c626b18",
+        "android_client_info": {
+          "package_name": "kurfirstcorp.com.benevolentlyask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115752647093-nb7pdchaheg3s3f9jgdo866ar9hdt98m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq81DisBwR_fAKQEiDR07ohlkUciVjQtc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

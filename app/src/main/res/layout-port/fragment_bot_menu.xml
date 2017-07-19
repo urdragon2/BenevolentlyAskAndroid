@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333399">
+
+    <ImageButton android:id="@+id/meButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="5dip"
+        android:padding="0dip"
+        android:src="@drawable/me" />
+
+    <ImageButton android:id="@+id/rateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="40dip"
+        android:padding="0dip"
+        android:layout_toRightOf="@id/meButton"
+        android:src="@drawable/connect" />
+
+    <ImageButton android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="50dip"
+        android:padding="0dip"
+        android:layout_toRightOf="@id/rateButton"
+        android:src="@drawable/search" />
+
+    <ImageButton android:id="@+id/receiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="140dip"
+        android:padding="0dip"
+        android:layout_toRightOf="@id/rateButton"
+        android:src="@drawable/receives" />
+
+</RelativeLayout>
